@@ -1,0 +1,85 @@
+#secundary {
+  background-color: var(--gray-200);
+  background-size: cover;
+
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    color: var(--red);
+    font-family: "Inconsolata";
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400S;
+    padding-bottom: 10px;
+    padding-top: 72px;
+  }
+
+  h2 {
+    color: var(--gray-600);
+    font-family: "Inconsolata";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    padding-bottom: 56px;
+  }
+
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8rem;
+  
+
+}
+
+.container {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, auto);
+  gap: 20px; 
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.box1 {
+  background-color: var(--gray-300);
+  width: 330px;
+  height: 280px;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  padding: 10px;
+
+  img {
+    align-items: center;
+    margin-top: 10px;
+    width: 306px;
+    height: 156px;
+    border-radius: 1rem;
+    padding-left: 5px;
+  }
+
+  h5 {
+    color: var(--gray-600);
+    padding: 10px;
+  }
+
+  h6 {
+    color: var(--gray-500);
+    font-family: var(--text-sm-maven);
+    font-size: smaller;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,98 @@
+
+#quartile {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-position: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  #contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .link {
+    
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 68px;
+    border-radius: 10px;
+    color: var(--gray-300);
+    background-color: var(--gray-300);
+    position: relative;
+
+    h1 {
+      display: flex;
+      align-items: center;
+
+      font-family: "Maven Pro";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 140%;
+      color: var(--gray-500);
+
+      padding-left: 3rem;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+
+    .imagem {
+      padding-left: 1rem;
+    }
+    .arrow {
+      position: absolute; /* Posiciona em relação à .link */
+      right: 1rem; /* Coloca a flecha no lado direito da div */
+      top: 50%; /* Centraliza verticalmente */
+      transform: translateY(-50%); /* Ajusta o centro exato */
+      width: 16px; /* Tamanho da flecha */
+      height: 16px;
+    }
+  }
+
+  #bottom {
+    margin-bottom: 200px;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  h3 {
+    padding-top: 128px;
+    color: #BB72E9;
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400;
+    font-family: "Asap";
+  }
+  h2{
+    color: var(--gray-600);
+    padding-bottom: 10px;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 700;
+    font-family: "Asap";
+    letter-spacing: 1px;
+  }
+  p {
+    color: var(--gray-500);
+    padding-bottom: 48px;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    font-family: "Asap";
+  }
+
+
+}
